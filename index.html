@@ -23,7 +23,7 @@
     .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:9px;font-weight:700;font-size:13px;transition:.2s}.primary{background:var(--accent);color:#10120b}.primary:hover{background:#dcff8a;transform:translateY(-2px)}.secondary{border:1px solid #454954;color:#f4f4f5}.secondary:hover{border-color:var(--accent);color:var(--accent)}
     .section{padding:82px 0;border-top:1px solid #ffffff12}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}.kicker{color:var(--accent);font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
     h2{font-size:clamp(32px,4vw,48px);margin:10px 0 0}.section-note{max-width:340px;color:var(--muted);font-size:14px;line-height:1.6}
-    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.video-card{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.25s}.video-card:hover{transform:translateY(-5px);border-color:#657d36}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.video-card{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.25s}.video-card,.short-card{transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s ease,box-shadow .35s ease}.video-card:hover,.short-card:hover{transform:translateY(-4px);border-color:#657d36;box-shadow:0 16px 38px #00000035}.video-card:focus-within,.short-card:focus-within{border-color:#657d36}
     .thumb{aspect-ratio:16/9;background-color:#1a1d22;background:linear-gradient(135deg,#242a1b,#171923);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
     .thumb iframe,.short-thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     .play{width:52px;height:52px;border-radius:50%;background:var(--accent);color:#10120b;display:grid;place-items:center;font-size:18px;padding-left:3px;z-index:1;box-shadow:0 0 35px #c8ff4d35}
@@ -48,19 +48,19 @@
   <section class="section" id="portfolio"><div class="wrap">
     <div class="section-head"><div><div class="kicker">01 / Полноразмерные видео</div><h2>Полноразмерные видео</h2></div></div>
     <div class="grid">
-      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/N0tJX0Gp_8M?playsinline=1&rel=0" title="NihongoClub в Школе 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>NihongoClub в Школе 21</h3><p>Полный цикл производства: от идеи и сценария до организации съёмок, подбора актёров, монтажа в CapCut, создания обложек и публикации.</p></div></article>
-      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/_ZopJ7jTzBo?playsinline=1&rel=0" title="NihongoClub в Школе 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>NihongoClub в Школе 21</h3><p>Полный цикл производства: от идеи и сценария до организации съёмок, подбора актёров, монтажа в CapCut, создания обложек и публикации.</p></div></article>
-      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/Yb-RFVvSbNY?playsinline=1&rel=0" title="Видео для немецкой школы Deutsch Online" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>Видео для немецкой школы Deutsch Online</h3><p>Редактура немецкого текста и работа с исходным материалом. Подготовка титров и визуальных вставок, контроль сценария и производства, публикация через YouTube Creative Studio.</p></div></article>
+      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/N0tJX0Gp_8M?playsinline=1&rel=0&enablejsapi=1" title="NihongoClub в Школе 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>NihongoClub в Школе 21</h3><p>Полный цикл производства: от идеи и сценария до организации съёмок, подбора актёров, монтажа в CapCut, создания обложек и публикации.</p></div></article>
+      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/_ZopJ7jTzBo?playsinline=1&rel=0&enablejsapi=1" title="NihongoClub в Школе 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>NihongoClub в Школе 21</h3><p>Полный цикл производства: от идеи и сценария до организации съёмок, подбора актёров, монтажа в CapCut, создания обложек и публикации.</p></div></article>
+      <article class="video-card"><div class="thumb"><iframe src="https://www.youtube.com/embed/Yb-RFVvSbNY?playsinline=1&rel=0&enablejsapi=1" title="Видео для немецкой школы Deutsch Online" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="card-body"><span class="tag">Видео-проект</span><h3>Видео для немецкой школы Deutsch Online</h3><p>Редактура немецкого текста и работа с исходным материалом. Подготовка титров и визуальных вставок, контроль сценария и производства, публикация через YouTube Creative Studio.</p></div></article>
     </div>
   </div></section>
 
   <section class="section" id="shorts"><div class="wrap">
     <div class="section-head"><div><div class="kicker">02 / Короткий формат</div><h2>Короткие видео</h2></div></div>
     <div class="shorts-grid">
-      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/yzcxlra48Ug?playsinline=1&rel=0" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Shorts · 9:16</p></div></article>
-      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/iMWkbU2AXUI?playsinline=1&rel=0" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Shorts · 9:16</p></div></article>
-      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/hBiXao5ntqs?playsinline=1&rel=0" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Reels · 9:16</p></div></article>
-      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/rtVd56ONawM?playsinline=1&rel=0" title="Amanya — проект для безопасности женщин" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Amanya — проект для безопасности женщин</h3><p>Shorts · 9:16</p></div></article>
+      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/yzcxlra48Ug?playsinline=1&rel=0&enablejsapi=1" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Shorts · 9:16</p></div></article>
+      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/iMWkbU2AXUI?playsinline=1&rel=0&enablejsapi=1" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Shorts · 9:16</p></div></article>
+      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/hBiXao5ntqs?playsinline=1&rel=0&enablejsapi=1" title="Пре-релиз женского комьюнити School 21" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Пре-релиз женского комьюнити School 21</h3><p>Reels · 9:16</p></div></article>
+      <article class="short-card"><div class="short-thumb"><iframe src="https://www.youtube.com/embed/rtVd56ONawM?playsinline=1&rel=0&enablejsapi=1" title="Amanya — проект для безопасности женщин" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="short-info"><h3>Amanya — проект для безопасности женщин</h3><p>Shorts · 9:16</p></div></article>
     </div>
   </div></section>
 
@@ -74,8 +74,9 @@
       <div class="about-panel">
         <p>Открыта к интересным проектам и сотрудничеству. Напишите мне, чтобы обсудить задачу.</p>
         <div class="pill-row">
-          <a class="pill" href="mailto:hello@example.com">Email: hello@example.com ↗</a>
-          <a class="pill" href="https://t.me/your_username" target="_blank" rel="noopener">Telegram ↗</a>
+          <a class="pill" href="mailto:atyagusova@mail.ru">Email: atyagusova@mail.ru ↗</a>
+          <a class="pill" href="tel:+998949550279">Телефон: +998 94 950 52 79 ↗</a>
+          <a class="pill" href="https://t.me/amulanga9" target="_blank" rel="noopener">Telegram: @amulanga9 ↗</a>
         </div>
       </div>
     </div>
@@ -88,6 +89,28 @@
   const nav=document.getElementById('navlinks');
   menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));
   nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+  // Когда запускается любое видео, остальные плееры автоматически ставятся на паузу.
+  const videoFrames = [...document.querySelectorAll('.thumb iframe, .short-thumb iframe')];
+  let youtubePlayers = [];
+  window.onYouTubeIframeAPIReady = () => {
+    youtubePlayers = videoFrames.map(frame => new YT.Player(frame, {
+      events: {
+        onStateChange: event => {
+          if (event.data === YT.PlayerState.PLAYING) {
+            youtubePlayers.forEach(player => {
+              if (player !== event.target) {
+                try { player.pauseVideo(); } catch (error) {}
+              }
+            });
+          }
+        }
+      }
+    }));
+  };
+  const youtubeApi = document.createElement('script');
+  youtubeApi.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(youtubeApi);
 </script>
 </body>
 </html>
